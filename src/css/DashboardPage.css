@@ -1,0 +1,10 @@
+.dashboard
+{
+    flex:0.85;
+    /* height:1000px; */
+}
+
+.dashboard__title
+{
+    margin:400px;
+}

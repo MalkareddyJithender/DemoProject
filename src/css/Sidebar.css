@@ -1,0 +1,71 @@
+.sidebar
+{
+    flex:0.04;
+    height:700px;
+    border:1px solid lightgray;
+    border-left: none;
+}
+
+.sidebar__content
+{
+    display:flex;
+    align-items:center;
+    cursor:pointer;
+    height:50px;
+}
+
+.sidebar__content2
+{
+    border-top:1px ridge #eee;
+    display:flex;
+    position:relative;
+    bottom:-60px;
+    align-items:center;
+    cursor:pointer;
+    height:65px;
+}
+
+a
+{
+    color:white;
+    text-decoration: none;
+
+}
+
+/* a:active
+{
+    color:#4682B4;
+    border-right:5px solid #4682B4;
+} */
+
+.sidebar__icon
+{
+    margin-left:20px;
+}
+
+.sidebar__icon2
+{
+    margin-left:20px;
+}
+
+.sidebar__text
+{
+    margin-left:5px;
+}
+
+.sidebar__content:hover
+{
+    color:orange;
+    border-right:5px solid orange;
+    background-color: #E5E4E2;
+}
+
+.is-active1
+{
+    color:#4682B4;
+}
+
+.MuiSvgIcon-root
+{
+    color:black;
+}
